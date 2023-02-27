@@ -2,13 +2,13 @@ import requests
 from bs4 import BeautifulSoup
 
 def getCoop():
-	textFile = open("coop1.txt", "w")
+	textFile = open("coop.txt", "w")
 
 	# target URL
 	base_url = "https://www.taten-statt-worte.ch/de/unsere-taten/tat-nr-"
 
 	# start count
-	count = 1
+	count = 334
 
 	while (count <= 408):
 		# create URL
