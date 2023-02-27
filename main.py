@@ -8,7 +8,8 @@ def getCoop():
 	base_url = "https://www.taten-statt-worte.ch/de/unsere-taten/tat-nr-"
 
 	# start count
-	count = 334
+	# Tat Nr. 77 and 333 give some suspicious errors
+	count = 1
 
 	while (count <= 408):
 		# create URL
