@@ -21,7 +21,7 @@ def getCoop():
 		introtext = soup.find("article", {"class": "KBK-005-A-introtext"})
 
 		# write count as index to textfile
-		textFile.write(str(count)+";")
+		textFile.write(str(count) + ";")
 
 		# get title and write to textfile
 		titles = introtext.findChildren("h1" , recursive=False)
