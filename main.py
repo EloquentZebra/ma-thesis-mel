@@ -37,9 +37,6 @@ def getCoop():
 			
 		# increment
 		count = count + 1	
-
-def getLidl():
-	print("Lidl")
 		
 if __name__ == '__main__':
 	getCoop()
